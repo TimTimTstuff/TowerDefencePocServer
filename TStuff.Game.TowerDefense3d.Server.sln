@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TStuff.Game.TowerDefense3d.Server", "TStuff.Game.TowerDefense3d.Server\TStuff.Game.TowerDefense3d.Server.csproj", "{EE0B2D71-CD8F-4984-B5E3-1A08E799240C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TStuff.Game.TowerDefense3d.lib", "TStuff.Game.TowerDefense3d.lib\TStuff.Game.TowerDefense3d.lib.csproj", "{F5FC401B-D0EC-4D47-832C-C36047179372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tstuff.Game.TowerDefense3d.TestAndTools", "tstuff.Game.TowerDefense3d.TestAndTools\tstuff.Game.TowerDefense3d.TestAndTools.csproj", "{B52CA68F-D17A-4233-BC09-0F82C8C158DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE0B2D71-CD8F-4984-B5E3-1A08E799240C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0B2D71-CD8F-4984-B5E3-1A08E799240C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0B2D71-CD8F-4984-B5E3-1A08E799240C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0B2D71-CD8F-4984-B5E3-1A08E799240C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5FC401B-D0EC-4D47-832C-C36047179372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FC401B-D0EC-4D47-832C-C36047179372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FC401B-D0EC-4D47-832C-C36047179372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FC401B-D0EC-4D47-832C-C36047179372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B52CA68F-D17A-4233-BC09-0F82C8C158DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B52CA68F-D17A-4233-BC09-0F82C8C158DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B52CA68F-D17A-4233-BC09-0F82C8C158DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B52CA68F-D17A-4233-BC09-0F82C8C158DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {167B55FE-E518-4450-9060-8FB6CE5AF550}
+	EndGlobalSection
+EndGlobal

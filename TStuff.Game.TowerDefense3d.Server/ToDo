@@ -1,0 +1,26 @@
+Client Features
+1. Button Sell Button
+2. Bullets/+Effects
+3. Statistiken Anzeigen 
+4. Tower/Mob Daten
+5. Erweitern der Build-Info
+
+Server Features
+1. Speichern der GameStatistiken
+2. Snapshots erstellen für Analyse von Statistiken
+3. SpawnDelay per SpawnPoint
+ 
+
+
+GamePlay Features
+1. MobSpawn Begrenzen. n: vom gleichen mob + Reload Time. (n config)
+2. Anzahl mobs senden bevor nächste mobs freigegeben werden (n config)
+3. Türme die durch Kombination Freigeschalten werden
+4. UpgradeFeature neuer Turm
+5. UpgradeFeature turm verstärken (XP?)
+
+
+Sonstige Features
+Neu: GameObject Database (SQL/MSSQL DB für Mobs usw)
+
+

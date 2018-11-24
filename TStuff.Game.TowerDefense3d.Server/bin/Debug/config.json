@@ -1,0 +1,17 @@
+{
+  "ServerPort": 8181,
+  "EffectTicksMilliseconds": 1000,
+  "MainBotName": "Bot Matt",
+  "MaxMobSendUpdate": 150,
+  "LogicUpdateEachMillisecond": 22,
+  "SendLoopMilliseconds": 60,
+  "GameSessionLoopAliveMessageAfterSeconds": 600,
+  "ProcessNetCommandsPerUpdate": 50,
+  "SendStatsEachMilliseconds": 300.0,
+  "AStarMaxSearch": 2147483647,
+  "MobWaitMillisecondsToDestroyBlockingTower": 2000,
+  "TileDistanceDefaultTollerance": 0.18,
+  "ServerLogLevel": 1,
+  "LogFileLevel": 4,
+  "MapFileFolderPathRelativ": "MapImages\\"
+}

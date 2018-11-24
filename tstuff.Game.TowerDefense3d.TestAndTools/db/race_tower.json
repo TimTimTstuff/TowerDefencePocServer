@@ -1,0 +1,14 @@
+[
+  {
+    "Description": "Testrasse, nix besonderes",
+    "DisplayName": "Speed Tower",
+    "RaceId": 1,
+    "Towers": "1,2,3"
+  },
+  {
+    "Description": "Testrasse, nix besonderes",
+    "DisplayName": "Range Tower",
+    "RaceId": 2,
+    "Towers": "4,5,6"
+  }
+]

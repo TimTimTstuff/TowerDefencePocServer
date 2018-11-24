@@ -1,0 +1,12 @@
+Base Exception Type: System.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+   bei TStuff.Game.TowerDefense3d.Server.Services.CreateGameService.SendMapListToClient(User user) in D:\PROGRAMMING\TStuff.Game.TowerDefense3\TStuff.Game.TowerDefense3d.Server\TStuff.Game.TowerDefense3d.Server\Services\CreateGameService.cs:Zeile 192.
+   bei TStuff.Game.TowerDefense3d.Server.Services.CreateGameService.ProcessMapRequests(Connection connection, MapRequests incomingObject) in D:\PROGRAMMING\TStuff.Game.TowerDefense3\TStuff.Game.TowerDefense3d.Server\TStuff.Game.TowerDefense3d.Server\Services\CreateGameService.cs:Zeile 169.
+   bei TStuff.Game.TowerDefense3d.Server.Services.CreateGameService.<.ctor>b__1_0(PacketHeader header, Connection connection, MapRequests incomingObject) in D:\PROGRAMMING\TStuff.Game.TowerDefense3\TStuff.Game.TowerDefense3d.Server\TStuff.Game.TowerDefense3d.Server\Services\CreateGameService.cs:Zeile 26.
+   bei NetworkCommsDotNet.Tools.PacketTypeHandlerDelegateWrapper`1.Process(PacketHeader packetHeader, Connection connection, Object obj)
+   bei NetworkCommsDotNet.NetworkComms.TriggerGlobalPacketHandlers(PacketHeader packetHeader, Connection connection, Object returnObject, Boolean ignoreUnknownPacketTypeOverride)
+
+Stack Trace:    bei TStuff.Game.TowerDefense3d.Server.Services.CreateGameService.SendMapListToClient(User user) in D:\PROGRAMMING\TStuff.Game.TowerDefense3\TStuff.Game.TowerDefense3d.Server\TStuff.Game.TowerDefense3d.Server\Services\CreateGameService.cs:Zeile 192.
+   bei TStuff.Game.TowerDefense3d.Server.Services.CreateGameService.ProcessMapRequests(Connection connection, MapRequests incomingObject) in D:\PROGRAMMING\TStuff.Game.TowerDefense3\TStuff.Game.TowerDefense3d.Server\TStuff.Game.TowerDefense3d.Server\Services\CreateGameService.cs:Zeile 169.
+   bei TStuff.Game.TowerDefense3d.Server.Services.CreateGameService.<.ctor>b__1_0(PacketHeader header, Connection connection, MapRequests incomingObject) in D:\PROGRAMMING\TStuff.Game.TowerDefense3\TStuff.Game.TowerDefense3d.Server\TStuff.Game.TowerDefense3d.Server\Services\CreateGameService.cs:Zeile 26.
+   bei NetworkCommsDotNet.Tools.PacketTypeHandlerDelegateWrapper`1.Process(PacketHeader packetHeader, Connection connection, Object obj)
+   bei NetworkCommsDotNet.NetworkComms.TriggerGlobalPacketHandlers(PacketHeader packetHeader, Connection connection, Object returnObject, Boolean ignoreUnknownPacketTypeOverride)
